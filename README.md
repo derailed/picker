@@ -1,4 +1,4 @@
-<img src="../../assets/gophernand.png" align="right" width="100" height="auto"/>
+<img src="assets/gophernand.png" align="right" width="100" height="auto"/>
 
 <br/>
 <br/>
@@ -12,7 +12,7 @@
 # LetsGo! Dictionary Lab
 
 ---
-## <img src="../../assets/lab.png" width="auto" height="32"/> Mission
+## <img src="assets/lab.png" width="auto" height="32"/> Mission
 
 > Package deal! Implement a picker package to pick a word from a given word dictionary
 
@@ -36,5 +36,5 @@
   their implementation
 
 ---
-<img src="../../assets/imhotep_logo.png" width="32" height="auto"/> © 2018 Imhotep Software LLC.
+<img src="assets/imhotep_logo.png" width="32" height="auto"/> © 2018 Imhotep Software LLC.
 All materials licensed under [Apache v2.0](http://www.apache.org/licenses/LICENSE-2.0)
