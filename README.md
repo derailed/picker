@@ -4,6 +4,11 @@
 <br/>
 <br/>
 
+[![Build Status](https://travis-ci.org/derailed/picker.svg?branch=master)](https://travis-ci.org/derailed/picker)
+[![Go Report Card](https://goreportcard.com/badge/github.com/derailed/picker)](https://goreportcard.com/report/github.com/derailed/picker)
+[![GoDoc](https://godoc.org/github.com/derailed/picker?status.svg)](http://godoc.org/github.com/derailed/picker)
+
+
 # LetsGo! Dictionary Lab
 
 ---
