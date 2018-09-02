@@ -21,7 +21,7 @@ func init() {
 	rand.Seed(time.Now().UnixNano())
 }
 
-// Load loads a new dictionary given a base path and a dictionary name
+// Load a new dictionary given a base path and a dictionary name
 func Load(dir, name string) (wl WordList, e error) {
 	path := filepath.Join(dir, name+".txt")
 
@@ -36,7 +36,7 @@ func Load(dir, name string) (wl WordList, e error) {
 	return
 }
 
-// LoadDefault loads a dictionary by name from the default assets dir
+// LoadDefault dictionary by name from the default assets dir
 func LoadDefault(name string) (wl WordList, e error) {
 	return Load(rootDir, name)
 }
