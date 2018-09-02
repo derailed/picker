@@ -1,6 +1,6 @@
 // © 2018 Imhotep Software LLC. All rights reserved.
 
-// Package picker picks a random word from a dictionary
+// Package picker picks a random word from a words dictionary.
 package picker
 
 import (
@@ -14,14 +14,14 @@ import (
 
 const rootDir = "./assets"
 
-// WordList a collection of dictionary words
+// WordList a collection of dictionary words.
 type WordList []string
 
 func init() {
 	rand.Seed(time.Now().UnixNano())
 }
 
-// Load a new dictionary given a base path and a dictionary name
+// Load a new dictionary given a base path and a dictionary name.
 func Load(dir, name string) (wl WordList, e error) {
 	path := filepath.Join(dir, name+".txt")
 
@@ -36,12 +36,12 @@ func Load(dir, name string) (wl WordList, e error) {
 	return
 }
 
-// LoadDefault dictionary by name from the default assets dir
+// LoadDefault dictionary by name from the default assets dir.
 func LoadDefault(name string) (wl WordList, e error) {
 	return Load(rootDir, name)
 }
 
-// Pick select a word at random from a list of words
+// Pick select a word at random from a list of words.
 func Pick(l WordList) string {
 	return l[rand.Intn(len(l))]
 }
