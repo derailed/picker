@@ -1,0 +1,8 @@
+language: go
+go_import_path: github.com/derailed/picker
+go:
+  - 1.11
+  - tip
+
+script:
+- go test -v ./...
