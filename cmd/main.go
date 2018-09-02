@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/imhotepio/letsgo_labs/dictionary"
+	"github.com/derailed/packaging/picker"
 )
 
 func main() {
@@ -15,9 +15,9 @@ func main() {
 	)
 	flag.Parse()
 
-	if wl, err := dictionary.Load(*dir, *dic); err != nil {
+	if wl, err := picker.Load(*dir, *dic); err != nil {
 		panic(err)
 	} else {
-		fmt.Printf("The word of the day is `%s\n", dictionary.Pick(wl))
+		fmt.Printf("The word of the day is `%s\n", picker.Pick(wl))
 	}
 }
